@@ -8,25 +8,25 @@ const apps = [
   {
     name: "Lectura AI",
     desc: "AI reading companion that summarizes, explains, and quizzes you on any content.",
-    url: "https://lectura-ai-deploy.vercel.app",
+    url: "https://lectura-rwl.vercel.app",
     tag: "EdTech AI",
   },
   {
     name: "DataPulse",
     desc: "Real-time data analytics dashboard with AI-generated insights and visualisations.",
-    url: "https://datapulse-deploy.vercel.app",
+    url: "https://datapulse-rwl.vercel.app",
     tag: "Analytics",
   },
   {
     name: "FocusVision",
     desc: "AI productivity tool that tracks focus sessions and surfaces patterns in your work.",
-    url: "https://focusvision-deploy.vercel.app",
+    url: "https://focusvision-rwl.vercel.app",
     tag: "Productivity",
   },
   {
     name: "Unclause",
     desc: "Plain-English legal document explainer. Paste any contract, get a clear breakdown.",
-    url: "https://unclause-deploy.vercel.app",
+    url: "https://unclause-rwl.vercel.app",
     tag: "Legal AI",
   },
   {
@@ -38,7 +38,7 @@ const apps = [
   {
     name: "RewriteOS",
     desc: "Personal OS for builders — goals, tasks, habits, and reflections in one focused space.",
-    url: "https://rewriteos-deploy.vercel.app",
+    url: "https://rewriteos-rwl.vercel.app",
     tag: "Productivity",
   },
 ];
