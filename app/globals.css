@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050510;
+  color: #ffffff;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #00ffff22;
+  color: #00ffff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050510;
+}
+::-webkit-scrollbar-thumb {
+  background: #142030;
+  border-radius: 3px;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.glow {
+  text-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+}
+
+.card-hover {
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.card-hover:hover {
+  border-color: rgba(0, 255, 255, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.06);
+}
