@@ -6,6 +6,7 @@ const links = [
   { label: 'Work',        href: '#rewrite-labs' },
   { label: 'Open Source', href: '#open-source' },
   { label: 'Book',        href: '#book' },
+  { label: 'Credentials', href: '#credentials' },
 ];
 
 export default function Navbar() {

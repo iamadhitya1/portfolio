@@ -6,6 +6,7 @@ import RewriteLabs from '@/components/RewriteLabs';
 import OpenSource from '@/components/OpenSource';
 import Book from '@/components/Book';
 import SideProjects from '@/components/SideProjects';
+import Credentials from '@/components/Credentials';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <OpenSource />
       <Book />
       <SideProjects />
+      <Credentials />
       <Footer />
     </main>
   );
