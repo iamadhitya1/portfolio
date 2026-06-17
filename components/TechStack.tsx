@@ -11,7 +11,9 @@ const stack = [
   { name: 'Supabase',    color: 'text-green-400  border-green-400/20  bg-green-400/5' },
   { name: 'Groq',        color: 'text-orange-400 border-orange-400/20 bg-orange-400/5' },
   { name: 'Clerk',       color: 'text-violet-400 border-violet-400/20 bg-violet-400/5' },
+  { name: 'Node.js',     color: 'text-green-300  border-green-300/20  bg-green-300/5' },
   { name: 'Razorpay',    color: 'text-blue-300   border-blue-300/20   bg-blue-300/5' },
+  { name: 'Git',         color: 'text-red-400    border-red-400/20    bg-red-400/5' },
   { name: 'Vercel',      color: 'text-white      border-white/20      bg-white/5' },
 ];
 

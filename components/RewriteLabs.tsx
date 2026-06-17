@@ -56,7 +56,7 @@ export default function RewriteLabs() {
             <h2 className="text-3xl sm:text-4xl font-bold">Rewrite Labs</h2>
             <p className="text-muted mt-3 max-w-lg text-sm leading-relaxed">
               A suite of 7 AI-powered products built independently. Each app
-              solves a specific problem — shipped, live, and used by real people.
+              solves a specific problem — built, shipped, and live.
             </p>
           </div>
           <a

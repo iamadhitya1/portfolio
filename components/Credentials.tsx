@@ -2,30 +2,17 @@ import { FadeIn } from '@/components/FadeIn';
 
 const creds = [
   // Jun 2026
-  { name: 'Cybersecurity Professional',                          issuer: 'LearnTube.ai', date: 'Jun 2026', color: 'text-green-400  border-green-400/20  bg-green-400/5' },
   { name: 'Discover AI Agents',                                  issuer: 'IBM',          date: 'Jun 2026', color: 'text-blue-400   border-blue-400/20   bg-blue-400/5' },
   { name: 'AI Ethics and Human Skills',                          issuer: 'Accenture',    date: 'Jun 2026', color: 'text-purple-400 border-purple-400/20 bg-purple-400/5' },
   { name: 'AI Analysis – NextGen Alliance',                      issuer: 'Microsoft',    date: 'Jun 2026', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  { name: 'Sustainable AI',                                      issuer: 'Accenture',    date: 'Jun 2026', color: 'text-purple-400 border-purple-400/20 bg-purple-400/5' },
-  { name: 'Social Media Marketing',                              issuer: 'HubSpot',      date: 'Jun 2026', color: 'text-orange-400 border-orange-400/20 bg-orange-400/5' },
   { name: 'AI Internship Completion',                            issuer: 'SmartED',      date: 'Jun 2026', color: 'text-cyan-400   border-cyan-400/20   bg-cyan-400/5' },
   // Jan 2026
   { name: 'Artificial Intelligence Internship Training',         issuer: 'SmartED',      date: 'Jan 2026', color: 'text-cyan-400   border-cyan-400/20   bg-cyan-400/5' },
-  // Dec 2025
-  { name: 'Project Management Professional (PMP)',               issuer: 'LearnTube.ai', date: 'Dec 2025', color: 'text-green-400  border-green-400/20  bg-green-400/5' },
-  // Nov 2025
-  { name: 'MS Excel Advanced Course',                            issuer: 'Ira Skills',   date: 'Nov 2025', color: 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' },
   // May 2025
   { name: 'Generative AI Productivity Skills',                   issuer: 'Microsoft',    date: 'May 2025', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  { name: 'Career Essentials in Sustainable Tech',               issuer: 'Microsoft',    date: 'May 2025', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  { name: 'AI for Managers',                                     issuer: 'Microsoft',    date: 'May 2025', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  { name: 'Human Skills in the Age of AI',                       issuer: 'Microsoft',    date: 'May 2025', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
   // Dec 2024
-  { name: 'AI for Organizational Leaders',                       issuer: 'Microsoft',    date: 'Dec 2024', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
   { name: 'Career Essentials in Generative AI',                  issuer: 'Microsoft',    date: 'Dec 2024', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
   { name: 'Career Essentials in Software Development',           issuer: 'Microsoft',    date: 'Dec 2024', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  // Nov 2024
-  { name: 'AI Tools Expert',                                     issuer: 'Be10x',        date: 'Nov 2024', color: 'text-red-400    border-red-400/20    bg-red-400/5' },
 ];
 
 export default function Credentials() {
@@ -42,7 +29,7 @@ export default function Credentials() {
                 Licenses &amp; Certifications
               </h2>
               <p className="text-muted text-sm mt-2">
-                {creds.length} credentials · Updated Jun 2026
+                8 credentials · Updated Jun 2026
               </p>
             </div>
             <a
