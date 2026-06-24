@@ -1,3 +1,5 @@
+import { FadeIn } from '@/components/FadeIn';
+
 const apps = [
   {
     name: "Sage",
@@ -19,9 +21,9 @@ const apps = [
   },
   {
     name: "FocusVision",
-    desc: "AI productivity tool that tracks focus sessions and surfaces patterns in your work.",
+    desc: "Webcam-based focus tracker using computer vision — detects distractions in real time.",
     url: "https://focusvision-rwl.vercel.app",
-    tag: "Productivity",
+    tag: "Computer Vision",
   },
   {
     name: "Unclause",
@@ -30,8 +32,14 @@ const apps = [
     tag: "Legal AI",
   },
   {
+    name: "ToneFix",
+    desc: "AI tone analyzer that detects and rewrites passive-aggressive, rude, or unclear messages.",
+    url: "https://tonefix-rwl.vercel.app",
+    tag: "Writing AI",
+  },
+  {
     name: "Nura",
-    desc: "AI companion for emotional support, journaling, and daily mental wellness check-ins.",
+    desc: "AI companion with persistent memory across conversations — friend, mentor, or study buddy.",
     url: "https://meetnura.vercel.app",
     tag: "Mental Health",
   },
@@ -51,12 +59,12 @@ export default function RewriteLabs() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
             <span className="text-xs font-mono text-cyan tracking-widest uppercase block mb-3">
-              Startup
+              Personal Studio
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold">Rewrite Labs</h2>
             <p className="text-muted mt-3 max-w-lg text-sm leading-relaxed">
-              A suite of 7 AI-powered products built independently. Each app
-              solves a specific problem — built, shipped, and live.
+              8 production apps covering LLM integration, computer vision, RAG, data
+              analytics, and AI-assisted communication — built and shipped solo.
             </p>
           </div>
           <a
@@ -71,24 +79,25 @@ export default function RewriteLabs() {
 
         {/* Apps grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {apps.map((app) => (
-            <a
-              key={app.name}
-              href={app.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block p-5 rounded-xl border border-border bg-bg card-hover"
-            >
-              <div className="flex items-start justify-between mb-3">
-                <span className="text-base font-semibold group-hover:text-cyan transition-colors">
-                  {app.name}
-                </span>
-                <span className="text-[10px] font-mono text-muted border border-border px-2 py-0.5 rounded-full shrink-0 ml-2">
-                  {app.tag}
-                </span>
-              </div>
-              <p className="text-muted text-xs leading-relaxed">{app.desc}</p>
-            </a>
+          {apps.map((app, i) => (
+            <FadeIn key={app.name} delay={Math.min(i * 60, 300)}>
+              <a
+                href={app.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block p-5 rounded-xl border border-border bg-bg card-hover h-full"
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <span className="text-base font-semibold group-hover:text-cyan transition-colors">
+                    {app.name}
+                  </span>
+                  <span className="text-[10px] font-mono text-muted border border-border px-2 py-0.5 rounded-full shrink-0 ml-2">
+                    {app.tag}
+                  </span>
+                </div>
+                <p className="text-muted text-xs leading-relaxed">{app.desc}</p>
+              </a>
+            </FadeIn>
           ))}
         </div>
       </div>

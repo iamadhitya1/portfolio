@@ -7,10 +7,16 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-3xl mx-auto">
-        {/* Status badge */}
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-surface text-xs text-muted font-mono mb-10 tracking-wide">
-          <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse" />
-          Founder @ Rewrite Labs
+        {/* Status badges */}
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-surface text-xs text-muted font-mono tracking-wide">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse" />
+            Rewrite Labs — Personal Studio
+          </div>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-green-500/30 bg-green-500/10 text-xs text-green-400 font-mono tracking-wide">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+            Open to opportunities
+          </div>
         </div>
 
         {/* Name */}
@@ -21,9 +27,9 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-10 leading-relaxed font-light">
-          Building AI tools that actually ship.{" "}
+          8 production AI apps. 7 OSS libraries.{" "}
           <span className="text-white/60">
-            7 live products · 7 open source libraries.
+            Built and shipped solo — open to roles, internships &amp; collaborations.
           </span>
         </p>
 

@@ -38,7 +38,7 @@ export default function About() {
           </FadeIn>
           <FadeIn delay={200}>
             <p className="text-muted leading-relaxed text-base">
-              I&apos;m the founder of Rewrite Labs — a suite of AI-powered tools
+              I run Rewrite Labs, my personal studio — a suite of AI-powered tools
               built to solve real problems. Everything I ship starts as something
               I personally needed. If the tool doesn&apos;t work for me, it
               doesn&apos;t ship.
@@ -62,9 +62,9 @@ export default function About() {
           <FadeIn delay={350}>
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border">
               {[
-                { value: '7',   label: 'Live products' },
-                { value: '7',   label: 'OSS libraries' },
-                { value: 'MIT', label: 'All open source' },
+                { value: '8.6K',        label: 'LinkedIn followers' },
+                { value: '3.2K',        label: 'Newsletter subscribers' },
+                { value: 'BeerBiceps',  label: 'Featured in' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <div className="text-2xl font-bold text-cyan">{value}</div>

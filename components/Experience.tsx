@@ -2,15 +2,15 @@ import { FadeIn } from '@/components/FadeIn';
 
 const experiences = [
   {
-    role: 'Founder',
+    role: 'Builder',
     company: 'Rewrite Labs',
     period: 'Dec 2025 – Present',
-    type: 'Startup',
+    type: 'Personal Studio',
     typeColor: 'text-cyan border-cyan/20 bg-cyan/5',
     bullets: [
-      'Built and shipped 7 live AI products — Sage, Lectura AI, DataPulse, FocusVision, Unclause, Nura, RewriteOS',
+      'Built and shipped 8 live AI products — Sage, Lectura AI, DataPulse, FocusVision, Unclause, ToneFix, Nura, RewriteOS',
       'Open-sourced 7 production-extracted libraries across TypeScript and Python, all MIT licensed',
-      'Grew to 8,600 LinkedIn followers and 3,200 newsletter subscribers as a solo founder',
+      'Grew to 8,600 LinkedIn followers and 3,200 newsletter subscribers',
       'Authored and published The Rewrite — a book on starting over and building things that matter',
     ],
     tech: ['React', 'Next.js', 'Python', 'Groq', 'Supabase', 'Vercel'],
@@ -22,8 +22,8 @@ const experiences = [
     type: 'Internship',
     typeColor: 'text-purple-400 border-purple-400/20 bg-purple-400/5',
     bullets: [
-      'Built a customer segmentation pipeline using K-Means clustering — identified 5 distinct buyer personas from a 200-customer retail dataset using Elbow Method and K-Means++ initialisation',
-      'Implemented A* pathfinding from scratch on a 10×10 grid with Manhattan distance heuristic, min-heap priority queue, and Matplotlib visualisation',
+      'Applied K-Means clustering to segment customers into distinct buyer personas — supported data-driven marketing decisions using scikit-learn and pandas',
+      'Implemented A* pathfinding in Python with priority queue optimization and Matplotlib visualisation as part of applied AI algorithm exploration',
     ],
     tech: ['Python', 'scikit-learn', 'pandas', 'matplotlib', 'seaborn'],
   },

@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="text-center sm:text-left">
           <div className="text-sm font-semibold text-white">M. Adhitya</div>
-          <div className="text-xs text-muted mt-1">Founder @ Rewrite Labs</div>
+          <div className="text-xs text-muted mt-1">Rewrite Labs — Personal Studio</div>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-6">
@@ -27,7 +27,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="text-xs text-muted/50 font-mono">© 2025 M. Adhitya</div>
+        <div className="text-xs text-muted/50 font-mono">© 2026 M. Adhitya</div>
       </div>
     </footer>
   );
