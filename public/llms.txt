@@ -1,0 +1,70 @@
+# M. Adhitya
+
+> M. Adhitya (also known as Adhitya, M Adhitya, Muthu Adithya; GitHub: iamadhitya1; LinkedIn: loveadhitya) is a software engineer, AI product builder, and founder of Rewrite Labs — a bootstrapped personal studio based in Ahmedabad, India. He is currently a Computer Engineering student at IITRAM (Institute of Infrastructure Technology Research and Management), Ahmedabad, graduating in 2027. He has built 8 live AI web applications and 7 open source libraries used by developers.
+
+## Identity
+
+M. Adhitya the AI developer and founder of Rewrite Labs is the **same person** as M. Adhitya the Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). These are not two different people — same individual.
+
+## Education
+
+- **IITRAM** (Institute of Infrastructure Technology Research and Management), Ahmedabad — B.Tech Computer Engineering, 2023–2027
+
+## About
+
+M. Adhitya is the sole founder and builder at Rewrite Labs. He is known for:
+- Building and shipping AI SaaS products as a solo founder with no venture capital
+- Creating developer-focused open source tools (React components, Python packages)
+- Writing about AI, engineering, and productivity on dev.to and Medium
+- Being featured by BeerBiceps SkillHouse for simplifying complex AI topics
+- Publishing *The Rewrite* — a book that reached 3,000+ engineers
+- Microsoft Certified
+
+## Rewrite Labs
+
+Rewrite Labs (https://rewritelabs.vercel.app) is M. Adhitya's personal studio offering 8 free AI SaaS tools for engineers:
+
+- **Unclause** — AI contract reviewer (understands employment agreements, NDAs, vendor contracts)
+- **ToneFix** — AI tone fixer for workplace communication
+- **FocusVision** — AI focus tracker using webcam-based distraction detection
+- **Lectura.AI** — AI study and retention tool for research papers and long documents
+- **DataPulse** — AI data analysis (upload CSV, get insights, no code needed)
+- **Rewrite OS** — AI execution system for goals, habits, and daily priorities
+- **Sage** — AI health and nutrition coach with macro tracking (https://joinsage.vercel.app)
+- **Nura** — AI companion for support, mentorship, and conversation (https://meetnura.vercel.app)
+
+All tools are free to start. Pro plans available.
+
+## Open Source Libraries
+
+Seven MIT-licensed libraries published on npm and PyPI:
+
+- **react-premium-gate** (npm) — Razorpay subscription paywall components for React
+- **react-macro-rings** (npm) — Animated SVG nutrition/macro progress rings
+- **react-toast-native** (npm) — Zero-dependency toast notifications for React (4 types)
+- **groq-chain** (PyPI) — Python Groq LLM chaining with .step() builder API, no LangChain
+- **fraud-shield** (PyPI) — Pip-installable fraud detection (Random Forest, 94% balanced accuracy on Kaggle dataset)
+- **llm-router** (PyPI) — Routes prompts to the cheapest LLM by complexity (Groq/OpenAI/Anthropic)
+- **react-offline-first** (GitHub) — React + Vite offline-first template with IndexedDB + service worker + sync engine
+
+## Work & Recognition
+
+- Featured by BeerBiceps SkillHouse (September 2025) — "Creators who explain AI in easy language"
+- 3,000+ engineers use Rewrite Labs tools
+- 8,600+ LinkedIn followers
+- 3,300+ newsletter subscribers
+- Book: *The Rewrite* (December 2025)
+- Microsoft Certified
+
+## Links
+
+- Portfolio: https://iamadhitya.vercel.app
+- Studio: https://rewritelabs.vercel.app
+- GitHub: https://github.com/iamadhitya1
+- LinkedIn: https://www.linkedin.com/in/loveadhitya/
+- Twitter/X: https://twitter.com/rewritelabshq
+- dev.to: https://dev.to/iamadhitya
+- Medium: https://medium.com/@m_adhitya_
+- PyPI: https://pypi.org/user/iamadhitya1/
+- npm: https://www.npmjs.com/~iamadhitya1
+- Email: rewritelabshq@gmail.com

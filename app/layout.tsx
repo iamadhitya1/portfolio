@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Cursor from "@/components/Cursor";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -15,31 +16,37 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "M. Adhitya — AI Builder & Engineer",
+  metadataBase: new URL("https://iamadhitya.vercel.app"),
+  title: "M. Adhitya — AI Builder, Engineer & Founder of Rewrite Labs",
   description:
-    "M. Adhitya builds AI-powered web apps and open source libraries (React + Python). Runs Rewrite Labs, a personal studio. 8 live tools, 7 OSS libraries.",
+    "M. Adhitya is a software engineer and AI builder — founder of Rewrite Labs, a personal studio with 8 free AI tools and 7 open source libraries. Based in Ahmedabad, India.",
   keywords: [
-    "M Adhitya", "Adhitya", "Rewrite Labs", "AI builder India",
-    "indie developer India", "React developer India",
+    "M Adhitya", "M. Adhitya", "Adhitya", "Muthu Adithya",
+    "m adhitya ai developer", "m adhitya rewrite labs", "m adhitya engineer",
+    "m adhitya iitram", "adhitya ai builder india", "adhitya open source",
+    "Rewrite Labs founder", "Rewrite Labs", "AI builder India",
+    "indie developer India", "React developer India", "AI engineer India",
     "open source AI libraries", "groq-chain", "fraud-shield", "react-premium-gate",
     "llm-router", "react-macro-rings", "react-toast-native", "react-offline-first",
+    "iamadhitya1", "loveadhitya",
   ],
   authors: [{ name: "M. Adhitya", url: "https://iamadhitya.vercel.app" }],
+  alternates: { canonical: "https://iamadhitya.vercel.app" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "M. Adhitya — AI Builder & Engineer",
-    description: "M. Adhitya builds AI-powered web apps and open source libraries. Runs Rewrite Labs personal studio. 8 live AI tools, 7 open source libraries.",
+    title: "M. Adhitya — AI Builder & Founder of Rewrite Labs",
+    description: "M. Adhitya is a software engineer and AI builder — founder of Rewrite Labs. 8 live AI tools, 7 open source libraries. Solo, bootstrapped, based in India.",
     url: "https://iamadhitya.vercel.app",
     siteName: "M. Adhitya",
     type: "profile",
-    images: [{ url: "https://iamadhitya.vercel.app/photo.jpg", width: 800, height: 800, alt: "M. Adhitya" }],
+    images: [{ url: "/photo.jpg", width: 800, height: 800, alt: "M. Adhitya — AI Builder & Founder of Rewrite Labs" }],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@rewritelabshq",
-    title: "M. Adhitya — AI Builder & Engineer",
-    description: "AI builder running Rewrite Labs personal studio. 8 live AI tools, 7 open source libraries. Bootstrapped, solo.",
-    images: ["https://iamadhitya.vercel.app/photo.jpg"],
+    title: "M. Adhitya — AI Builder & Founder of Rewrite Labs",
+    description: "Software engineer and AI builder. Founder of Rewrite Labs — 8 free AI tools, 7 open source libraries. Solo, bootstrapped.",
+    images: ["/photo.jpg"],
   },
 };
 
@@ -50,57 +57,86 @@ export default function RootLayout({
 }) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "M. Adhitya",
-    "alternateName": ["Adhitya", "M Adhitya", "iamadhitya1"],
-    "url": "https://iamadhitya.vercel.app",
-    "jobTitle": "AI Builder & Engineer",
-    "description": "M. Adhitya runs Rewrite Labs, a personal AI tools studio based in India. He has built 8 live AI web applications and 7 open source libraries for developers. Known for building silently and shipping publicly — solo, no VC.",
-    "image": "https://iamadhitya.vercel.app/photo.jpg",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Rewrite Labs",
-      "url": "https://rewritelabs.vercel.app",
-      "description": "Personal AI tools studio — 8 free AI tools for engineers and builders"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Ahmedabad",
-      "addressCountry": "IN"
-    },
-    "sameAs": [
-      "https://github.com/iamadhitya1",
-      "https://www.linkedin.com/in/loveadhitya/",
-      "https://twitter.com/rewritelabshq",
-      "https://dev.to/iamadhitya",
-      "https://medium.com/@m_adhitya_",
-      "https://pypi.org/user/iamadhitya1/",
-      "https://www.npmjs.com/~iamadhitya1"
-    ],
-    "knowsAbout": [
-      "Artificial Intelligence", "Machine Learning", "React", "Next.js",
-      "Python", "Open Source Software", "Product Development",
-      "Large Language Models", "Groq API", "Razorpay Integration",
-      "TypeScript", "Supabase", "Vercel", "Fraud Detection",
-      "LLM Routing", "Indie Hacking", "Bootstrapped Development",
-      "AI Tools for Engineers", "React Component Libraries", "PyPI Packages"
-    ],
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Software Engineer & Builder",
-      "occupationLocation": { "@type": "Country", "name": "India" }
-    }
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://iamadhitya.vercel.app/#person",
+        "name": "M. Adhitya",
+        "alternateName": ["Adhitya", "M Adhitya", "Muthu Adithya", "iamadhitya1", "loveadhitya"],
+        "url": "https://iamadhitya.vercel.app",
+        "jobTitle": "Software Engineer & AI Builder",
+        "description": "M. Adhitya is a software engineer, AI builder, and founder of Rewrite Labs — a personal studio with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. 3,000+ engineers reached. Bootstrapped, no VC.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://iamadhitya.vercel.app/photo.jpg",
+          "width": 800,
+          "height": 800,
+          "caption": "M. Adhitya — AI Builder & Founder of Rewrite Labs"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://rewritelabs.vercel.app/#organization",
+          "name": "Rewrite Labs",
+          "url": "https://rewritelabs.vercel.app"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Institute of Infrastructure Technology Research and Management (IITRAM)",
+          "url": "https://iitram.ac.in",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ahmedabad",
+            "addressCountry": "IN"
+          }
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressCountry": "IN"
+        },
+        "award": "Featured in BeerBiceps SkillHouse — Creators who explain AI in easy language (September 2025)",
+        "sameAs": [
+          "https://github.com/iamadhitya1",
+          "https://www.linkedin.com/in/loveadhitya/",
+          "https://twitter.com/rewritelabshq",
+          "https://dev.to/iamadhitya",
+          "https://medium.com/@m_adhitya_",
+          "https://pypi.org/user/iamadhitya1/",
+          "https://www.npmjs.com/~iamadhitya1",
+          "https://rewritelabs.vercel.app"
+        ],
+        "knowsAbout": [
+          "Artificial Intelligence", "Machine Learning", "React", "Next.js",
+          "Python", "Open Source Software", "Product Development",
+          "Large Language Models", "Groq API", "TypeScript", "Supabase",
+          "Fraud Detection", "LLM Routing", "AI SaaS", "Generative AI",
+          "AI Tools for Engineers", "React Component Libraries", "PyPI Packages"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://iamadhitya.vercel.app/#website",
+        "url": "https://iamadhitya.vercel.app",
+        "name": "M. Adhitya — Portfolio",
+        "description": "Personal portfolio of M. Adhitya, AI builder and founder of Rewrite Labs.",
+        "author": { "@id": "https://iamadhitya.vercel.app/#person" }
+      }
+    ]
   };
 
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <meta name="google-site-verification" content="O8GX_bTzG_bNXRqlXic9fTHJyArulWLlr5FYW91E3xU" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Cursor />
+        {children}
+      </body>
     </html>
   );
 }

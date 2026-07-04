@@ -63,7 +63,7 @@ export default function About() {
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border">
               {[
                 { value: '8.6K',        label: 'LinkedIn followers' },
-                { value: '3.2K',        label: 'Newsletter subscribers' },
+                { value: '3.3K',        label: 'Newsletter subscribers' },
                 { value: 'BeerBiceps',  label: 'Featured in' },
               ].map(({ value, label }) => (
                 <div key={label}>

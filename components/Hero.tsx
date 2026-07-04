@@ -27,9 +27,9 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-10 leading-relaxed font-light">
-          8 production AI apps. 7 OSS libraries.{" "}
+          8 production AI apps. 7 open source libraries. 3,000+ engineers.{" "}
           <span className="text-white/60">
-            Built and shipped solo — open to roles, internships &amp; collaborations.
+            All built and shipped solo — open to roles, internships &amp; collaborations.
           </span>
         </p>
 

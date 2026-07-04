@@ -39,9 +39,9 @@ export default function Book() {
             </FadeIn>
             <FadeIn delay={200}>
               <p className="text-muted leading-relaxed text-base mb-8 max-w-lg">
-                A collection of 12 real stories about people who rewrote the
-                path everyone expected them to follow. Part narrative, part
-                manifesto — for anyone building something outside the script.
+                12 stories about people who rewrote the path everyone expected
+                them to follow. Part narrative, part manifesto — for anyone
+                building something outside the script.
               </p>
             </FadeIn>
             <FadeIn delay={300}>

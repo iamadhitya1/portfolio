@@ -8,6 +8,8 @@ import OpenSource from '@/components/OpenSource';
 import Book from '@/components/Book';
 import SideProjects from '@/components/SideProjects';
 import Credentials from '@/components/Credentials';
+import Recognition from '@/components/Recognition';
+import HireMe from '@/components/HireMe';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
       <Book />
       <SideProjects />
       <Credentials />
+      <Recognition />
+      <HireMe />
       <Footer />
     </main>
   );

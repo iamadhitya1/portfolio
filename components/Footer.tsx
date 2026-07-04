@@ -11,6 +11,7 @@ export default function Footer() {
           {[
             { label: 'GitHub',       href: 'https://github.com/iamadhitya1' },
             { label: 'LinkedIn',     href: 'https://www.linkedin.com/in/loveadhitya/' },
+            { label: 'Instagram',    href: 'https://www.instagram.com/iamadhitya1/' },
             { label: 'Twitter',      href: 'https://twitter.com/rewritelabshq' },
             { label: 'Rewrite Labs', href: 'https://rewritelabs.vercel.app' },
             { label: 'Email',        href: 'mailto:muthuadithya999@gmail.com' },
