@@ -98,7 +98,6 @@ export default function RootLayout({
         "sameAs": [
           "https://github.com/iamadhitya1",
           "https://www.linkedin.com/in/loveadhitya/",
-          "https://twitter.com/rewritelabshq",
           "https://dev.to/iamadhitya",
           "https://medium.com/@m_adhitya_",
           "https://pypi.org/user/iamadhitya1/",
