@@ -17,14 +17,14 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iamadhitya.vercel.app"),
-  title: "M. Adhitya — AI Builder, Engineer & Founder of Rewrite Labs",
+  title: "M. Adhitya — AI Builder, Engineer & Creator of Rewrite Labs",
   description:
-    "M. Adhitya is a software engineer and AI builder — founder of Rewrite Labs, a personal studio with 8 free AI tools and 7 open source libraries. Based in Ahmedabad, India.",
+    "M. Adhitya is a software engineer and AI builder — creator of Rewrite Labs, a personal AI studio with 8 free AI tools and 7 open source libraries. Based in Ahmedabad, India.",
   keywords: [
     "M Adhitya", "M. Adhitya", "Adhitya", "Muthu Adithya",
     "m adhitya ai developer", "m adhitya rewrite labs", "m adhitya engineer",
     "m adhitya iitram", "adhitya ai builder india", "adhitya open source",
-    "Rewrite Labs founder", "Rewrite Labs", "AI builder India",
+    "Rewrite Labs", "AI builder India",
     "indie developer India", "React developer India", "AI engineer India",
     "open source AI libraries", "groq-chain", "fraud-shield", "react-premium-gate",
     "llm-router", "react-macro-rings", "react-toast-native", "react-offline-first",
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://iamadhitya.vercel.app" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "M. Adhitya — AI Builder & Founder of Rewrite Labs",
-    description: "M. Adhitya is a software engineer and AI builder — founder of Rewrite Labs. 8 live AI tools, 7 open source libraries. Solo, bootstrapped, based in India.",
+    title: "M. Adhitya — AI Builder & Creator of Rewrite Labs",
+    description: "M. Adhitya is a software engineer and AI builder — creator of Rewrite Labs. 8 live AI tools, 7 open source libraries. Solo, bootstrapped, based in India.",
     url: "https://iamadhitya.vercel.app",
     siteName: "M. Adhitya",
     type: "profile",
-    images: [{ url: "/photo.jpg", width: 800, height: 800, alt: "M. Adhitya — AI Builder & Founder of Rewrite Labs" }],
+    images: [{ url: "/photo.jpg", width: 800, height: 800, alt: "M. Adhitya — AI Builder & Creator of Rewrite Labs" }],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@rewritelabshq",
-    title: "M. Adhitya — AI Builder & Founder of Rewrite Labs",
-    description: "Software engineer and AI builder. Founder of Rewrite Labs — 8 free AI tools, 7 open source libraries. Solo, bootstrapped.",
+    title: "M. Adhitya — AI Builder & Creator of Rewrite Labs",
+    description: "Software engineer and AI builder. Creator of Rewrite Labs — 8 free AI tools, 7 open source libraries. Solo, bootstrapped.",
     images: ["/photo.jpg"],
   },
 };
@@ -65,13 +65,13 @@ export default function RootLayout({
         "alternateName": ["Adhitya", "M Adhitya", "Muthu Adithya", "iamadhitya1", "loveadhitya"],
         "url": "https://iamadhitya.vercel.app",
         "jobTitle": "Software Engineer & AI Builder",
-        "description": "M. Adhitya is a software engineer, AI builder, and founder of Rewrite Labs — a personal studio with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. 3,000+ engineers reached. Bootstrapped, no VC.",
+        "description": "M. Adhitya is a software engineer, AI builder, and creator of Rewrite Labs — a personal AI studio with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. Bootstrapped, no VC.",
         "image": {
           "@type": "ImageObject",
           "url": "https://iamadhitya.vercel.app/photo.jpg",
           "width": 800,
           "height": 800,
-          "caption": "M. Adhitya — AI Builder & Founder of Rewrite Labs"
+          "caption": "M. Adhitya — AI Builder & Creator of Rewrite Labs"
         },
         "worksFor": {
           "@type": "Organization",
@@ -117,7 +117,7 @@ export default function RootLayout({
         "@id": "https://iamadhitya.vercel.app/#website",
         "url": "https://iamadhitya.vercel.app",
         "name": "M. Adhitya — Portfolio",
-        "description": "Personal portfolio of M. Adhitya, AI builder and founder of Rewrite Labs.",
+        "description": "Personal portfolio of M. Adhitya, AI builder and creator of Rewrite Labs.",
         "author": { "@id": "https://iamadhitya.vercel.app/#person" }
       }
     ]

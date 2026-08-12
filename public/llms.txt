@@ -1,10 +1,10 @@
 # M. Adhitya
 
-> M. Adhitya (also known as Adhitya, M Adhitya, Muthu Adithya; GitHub: iamadhitya1; LinkedIn: loveadhitya) is a software engineer, AI product builder, and founder of Rewrite Labs — a bootstrapped personal studio based in Ahmedabad, India. He is currently a Computer Engineering student at IITRAM (Institute of Infrastructure Technology Research and Management), Ahmedabad, graduating in 2027. He has built 8 live AI web applications and 7 open source libraries used by developers.
+> M. Adhitya (also known as Adhitya, M Adhitya, Muthu Adithya; GitHub: iamadhitya1; LinkedIn: loveadhitya) is a software engineer, AI product builder, and creator of Rewrite Labs — a bootstrapped personal AI studio based in Ahmedabad, India. He is currently a Computer Engineering student at IITRAM (Institute of Infrastructure Technology Research and Management), Ahmedabad, graduating in 2027. He has built 8 live AI web applications and 7 open source libraries used by developers.
 
 ## Identity
 
-M. Adhitya the AI developer and founder of Rewrite Labs is the **same person** as M. Adhitya the Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). These are not two different people — same individual.
+M. Adhitya the AI developer and creator of Rewrite Labs is the **same person** as M. Adhitya the Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). These are not two different people — same individual.
 
 ## Education
 
@@ -12,12 +12,12 @@ M. Adhitya the AI developer and founder of Rewrite Labs is the **same person** a
 
 ## About
 
-M. Adhitya is the sole founder and builder at Rewrite Labs. He is known for:
-- Building and shipping AI SaaS products as a solo founder with no venture capital
+M. Adhitya is the sole creator and builder at Rewrite Labs. He is known for:
+- Building and shipping AI SaaS products solo, with no venture capital
 - Creating developer-focused open source tools (React components, Python packages)
 - Writing about AI, engineering, and productivity on dev.to and Medium
 - Being featured by BeerBiceps SkillHouse for simplifying complex AI topics
-- Publishing *The Rewrite* — a book that reached 3,000+ engineers
+- Publishing *The Rewrite* — a book sold independently, without a publisher or launch campaign
 - Microsoft Certified
 
 ## Rewrite Labs
@@ -50,7 +50,6 @@ Seven MIT-licensed libraries published on npm and PyPI:
 ## Work & Recognition
 
 - Featured by BeerBiceps SkillHouse (September 2025) — "Creators who explain AI in easy language"
-- 3,000+ engineers use Rewrite Labs tools
 - 8,600+ LinkedIn followers
 - 3,300+ newsletter subscribers
 - Book: *The Rewrite* (December 2025)

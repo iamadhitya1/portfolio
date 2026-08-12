@@ -10,7 +10,7 @@ const items = [
   {
     date: 'Dec 2025',
     source: 'Published Author',
-    quote: 'The Rewrite — sold independently, reached 3,000+ engineers and builders without a publisher or launch campaign.',
+    quote: 'The Rewrite — sold independently, without a publisher or launch campaign.',
     cta: { label: 'Get the book →', href: 'https://topmate.io/m_adhitya/1868094' },
   },
 ];
