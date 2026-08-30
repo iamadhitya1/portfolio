@@ -82,16 +82,36 @@ export default function RootLayout({
           "name": "Rewrite Labs",
           "url": "https://rewritelabs.vercel.app"
         },
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Institute of Infrastructure Technology Research and Management (IITRAM)",
-          "url": "https://iitram.ac.in",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Ahmedabad",
-            "addressCountry": "IN"
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Institute of Infrastructure Technology Research and Management (IITRAM)",
+            "url": "https://iitram.ac.in",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ahmedabad",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "HighSchool",
+            "name": "Jaipuriar School, Sanpada",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Navi Mumbai",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "HighSchool",
+            "name": "Podar International School, Nerul",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Navi Mumbai",
+              "addressCountry": "IN"
+            }
           }
-        },
+        ],
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Ahmedabad",

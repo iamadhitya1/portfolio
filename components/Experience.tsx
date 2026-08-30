@@ -24,6 +24,23 @@ const education = {
   location: 'Ahmedabad, India',
 };
 
+const schooling = [
+  {
+    level: 'Class XII — Science (PCM) with IT',
+    school: 'Jaipuriar School, Sanpada',
+    location: 'Navi Mumbai · CBSE',
+    result: '90.8%',
+    year: '2022',
+  },
+  {
+    level: 'Class X',
+    school: 'Podar International School, Nerul',
+    location: 'Navi Mumbai · CBSE',
+    result: '94.8%',
+    year: '2020',
+  },
+];
+
 export default function Experience() {
   return (
     <section id="experience" className="py-28 px-6 border-t border-border">
@@ -106,6 +123,27 @@ export default function Experience() {
                   </div>
                   <span className="text-xs font-mono text-muted shrink-0">{education.period}</span>
                 </div>
+              </div>
+
+              {/* Schooling */}
+              <div className="mt-3 space-y-3">
+                {schooling.map((s) => (
+                  <div
+                    key={s.level}
+                    className="p-5 rounded-xl border border-border bg-surface/60"
+                  >
+                    <div className="flex flex-wrap items-start justify-between gap-2">
+                      <div>
+                        <h4 className="font-medium text-white text-sm">{s.level}</h4>
+                        <p className="text-cyan/90 text-sm mt-0.5">{s.school}</p>
+                        <p className="text-xs text-muted font-mono mt-1">
+                          {s.location} · {s.result}
+                        </p>
+                      </div>
+                      <span className="text-xs font-mono text-muted shrink-0">{s.year}</span>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
