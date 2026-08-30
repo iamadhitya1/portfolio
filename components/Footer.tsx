@@ -13,7 +13,7 @@ export default function Footer() {
             { label: 'LinkedIn',     href: 'https://www.linkedin.com/in/loveadhitya/' },
             { label: 'Instagram',    href: 'https://www.instagram.com/iamadhitya1/' },
             { label: 'Rewrite Labs', href: 'https://rewritelabs.vercel.app' },
-            { label: 'Email',        href: 'mailto:muthuadithya999@gmail.com' },
+            { label: 'Email',        href: 'mailto:adhitya5119@gmail.com' },
           ].map(({ label, href }) => (
             <a
               key={label}

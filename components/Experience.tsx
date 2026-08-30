@@ -10,22 +10,10 @@ const experiences = [
     bullets: [
       'Built and shipped 8 live AI products — Sage, Lectura AI, DataPulse, FocusVision, Unclause, ToneFix, Nura, RewriteOS',
       'Open-sourced 7 production-extracted libraries across TypeScript and Python, all MIT licensed',
-      'Grew to 8,600 LinkedIn followers and 3,200 newsletter subscribers',
+      'Grew an audience of 8,800+ LinkedIn followers and 3,300+ newsletter subscribers',
       'Authored and published The Rewrite — a book on starting over and building things that matter',
     ],
     tech: ['React', 'Next.js', 'Python', 'Groq', 'Supabase', 'Vercel'],
-  },
-  {
-    role: 'AI Intern',
-    company: 'SmartED Innovations',
-    period: 'Dec 2025 – Jan 2026',
-    type: 'Internship',
-    typeColor: 'text-purple-400 border-purple-400/20 bg-purple-400/5',
-    bullets: [
-      'Applied K-Means clustering to segment customers into distinct buyer personas — supported data-driven marketing decisions using scikit-learn and pandas',
-      'Implemented A* pathfinding in Python with priority queue optimization and Matplotlib visualisation as part of applied AI algorithm exploration',
-    ],
-    tech: ['Python', 'scikit-learn', 'pandas', 'matplotlib', 'seaborn'],
   },
 ];
 

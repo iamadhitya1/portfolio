@@ -13,7 +13,7 @@ export default function HireMe() {
             Looking for my next opportunity.
           </h2>
           <p className="text-muted text-base leading-relaxed max-w-xl mx-auto mb-10">
-            CS student at IITRAM (2023–2027) open to internships, full-time roles, freelance projects,
+            Final-year CS student (2023–2027) open to internships, full-time roles, freelance projects,
             and collaborations. I build fast, ship real products, and work well without hand-holding.
             Remote or Ahmedabad-based.
           </p>
@@ -42,7 +42,7 @@ export default function HireMe() {
         <FadeIn delay={150}>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
-              href="mailto:muthuadithya999@gmail.com"
+              href="mailto:adhitya5119@gmail.com"
               className="px-6 py-2.5 bg-cyan text-bg text-sm font-semibold rounded-lg hover:bg-cyan/90 transition-colors"
             >
               Email me →

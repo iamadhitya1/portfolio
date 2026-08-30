@@ -58,6 +58,8 @@ export default function Navbar() {
           className="sm:hidden text-muted hover:text-white transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {open
@@ -69,7 +71,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="sm:hidden bg-bg/95 backdrop-blur border-b border-border px-6 py-4 flex flex-col gap-4">
+        <div id="mobile-menu" className="sm:hidden bg-bg/95 backdrop-blur border-b border-border px-6 py-4 flex flex-col gap-4">
           {links.map(({ label, href }) => (
             <a
               key={label}

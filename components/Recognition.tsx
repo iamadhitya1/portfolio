@@ -8,7 +8,7 @@ const items = [
     cta: { label: 'View feature →', href: 'https://www.beerbicepsskillhouse.in/post/creators-who-explain-ai-in-easy-language' },
   },
   {
-    date: 'Dec 2025',
+    date: 'Jan 2026',
     source: 'Published Author',
     quote: 'The Rewrite — sold independently, without a publisher or launch campaign.',
     cta: { label: 'Get the book →', href: 'https://topmate.io/m_adhitya/1868094' },

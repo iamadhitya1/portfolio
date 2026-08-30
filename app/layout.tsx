@@ -17,9 +17,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iamadhitya.vercel.app"),
-  title: "M. Adhitya — AI Builder, Engineer & Creator of Rewrite Labs",
+  title: "M. Adhitya — AI Builder & Software Engineer",
   description:
-    "M. Adhitya is a software engineer and AI builder — creator of Rewrite Labs, a personal AI studio with 8 free AI tools and 7 open source libraries. Based in Ahmedabad, India.",
+    "M. Adhitya is a software engineer and AI builder. He runs Rewrite Labs, a personal AI studio, with 8 free AI tools and 7 open source libraries. Based in Ahmedabad, India.",
   keywords: [
     "M Adhitya", "M. Adhitya", "Adhitya", "Muthu Adithya",
     "m adhitya ai developer", "m adhitya rewrite labs", "m adhitya engineer",
@@ -34,20 +34,23 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://iamadhitya.vercel.app" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "M. Adhitya — AI Builder & Creator of Rewrite Labs",
-    description: "M. Adhitya is a software engineer and AI builder — creator of Rewrite Labs. 8 live AI tools, 7 open source libraries. Solo, bootstrapped, based in India.",
+    title: "M. Adhitya — AI Builder & Software Engineer",
+    description: "M. Adhitya is a software engineer and AI builder. He runs Rewrite Labs, a personal AI studio — 8 live AI tools, 7 open source libraries. Solo, bootstrapped, based in India.",
     url: "https://iamadhitya.vercel.app",
     siteName: "M. Adhitya",
     type: "profile",
-    images: [{ url: "/photo.jpg", width: 800, height: 800, alt: "M. Adhitya — AI Builder & Creator of Rewrite Labs" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "M. Adhitya — AI Builder & Software Engineer" }],
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@rewritelabshq",
-    title: "M. Adhitya — AI Builder & Creator of Rewrite Labs",
-    description: "Software engineer and AI builder. Creator of Rewrite Labs — 8 free AI tools, 7 open source libraries. Solo, bootstrapped.",
-    images: ["/photo.jpg"],
+    title: "M. Adhitya — AI Builder & Software Engineer",
+    description: "Software engineer and AI builder. Runs Rewrite Labs, a personal AI studio — 8 free AI tools, 7 open source libraries. Solo, bootstrapped.",
+    images: ["/opengraph-image"],
   },
+};
+
+export const viewport = {
+  themeColor: "#050510",
 };
 
 export default function RootLayout({
@@ -65,7 +68,7 @@ export default function RootLayout({
         "alternateName": ["Adhitya", "M Adhitya", "Muthu Adithya", "iamadhitya1", "loveadhitya"],
         "url": "https://iamadhitya.vercel.app",
         "jobTitle": "Software Engineer & AI Builder",
-        "description": "M. Adhitya is a software engineer, AI builder, and creator of Rewrite Labs — a personal AI studio with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. Bootstrapped, no VC.",
+        "description": "M. Adhitya is a software engineer and AI builder. He runs Rewrite Labs, a personal AI studio, with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. Bootstrapped, no VC.",
         "image": {
           "@type": "ImageObject",
           "url": "https://iamadhitya.vercel.app/photo.jpg",

@@ -7,6 +7,7 @@ const projects = [
     url: 'https://github.com/iamadhitya1/nexus',
     tag: 'Multi-Agent AI',
     color: 'text-purple-400 border-purple-400/20 bg-purple-400/5',
+    cta: 'View on GitHub →',
   },
   {
     name: 'dead-code-ai',
@@ -14,6 +15,7 @@ const projects = [
     url: 'https://github.com/iamadhitya1/dead-code-ai',
     tag: 'Dev Tools',
     color: 'text-orange-400 border-orange-400/20 bg-orange-400/5',
+    cta: 'View on GitHub →',
   },
   {
     name: 'Last Stand',
@@ -21,6 +23,7 @@ const projects = [
     url: 'https://last-stand-adhitya.vercel.app',
     tag: 'Game',
     color: 'text-cyan border-cyan/20 bg-cyan/5',
+    cta: 'Play now →',
   },
 ];
 
@@ -58,7 +61,7 @@ export default function SideProjects() {
                 </div>
                 <p className="text-muted text-xs leading-relaxed">{p.desc}</p>
                 <div className="mt-4 text-[11px] font-mono text-cyan/60 group-hover:text-cyan transition-colors">
-                  Play now →
+                  {p.cta}
                 </div>
               </a>
             </FadeIn>

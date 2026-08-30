@@ -52,7 +52,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="mailto:muthuadithya999@gmail.com"
+            href="mailto:adhitya5119@gmail.com"
             className="px-5 py-2.5 border border-border bg-surface text-white text-sm font-medium rounded-lg hover:border-cyan/40 hover:bg-subtle transition-colors"
           >
             Contact

@@ -62,7 +62,7 @@ export default function About() {
           <FadeIn delay={350}>
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border">
               {[
-                { value: '8.6K',        label: 'LinkedIn followers' },
+                { value: '8.8K',        label: 'LinkedIn followers' },
                 { value: '3.3K',        label: 'Newsletter subscribers' },
                 { value: 'BeerBiceps',  label: 'Featured in' },
               ].map(({ value, label }) => (

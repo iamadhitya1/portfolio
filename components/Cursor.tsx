@@ -40,21 +40,24 @@ export default function Cursor() {
 
     const expand = () => ringInner.classList.add('ring-expanded');
     const collapse = () => ringInner.classList.remove('ring-expanded');
+    const isInteractive = (t: EventTarget | null) =>
+      t instanceof Element && !!t.closest('a, button, [role="button"], input, textarea, select');
 
+    const onOver = (e: MouseEvent) => { if (isInteractive(e.target)) expand(); };
+    const onOut = (e: MouseEvent) => { if (isInteractive(e.target)) collapse(); };
+
+    document.body.classList.add('custom-cursor');
     document.addEventListener('mousemove', onMove, { passive: true });
-
-    const bindHovers = () => {
-      document.querySelectorAll('a, button').forEach((el) => {
-        el.addEventListener('mouseenter', expand);
-        el.addEventListener('mouseleave', collapse);
-      });
-    };
-    bindHovers();
+    document.addEventListener('mouseover', onOver, { passive: true });
+    document.addEventListener('mouseout', onOut, { passive: true });
 
     raf = requestAnimationFrame(loop);
 
     return () => {
+      document.body.classList.remove('custom-cursor');
       document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseover', onOver);
+      document.removeEventListener('mouseout', onOut);
       cancelAnimationFrame(raf);
     };
   }, []);

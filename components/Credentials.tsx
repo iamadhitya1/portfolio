@@ -7,7 +7,6 @@ const creds = [
   { name: 'Discover AI Agents',                                  issuer: 'IBM',          date: 'Jun 2026', color: 'text-blue-400   border-blue-400/20   bg-blue-400/5' },
   { name: 'AI Ethics and Human Skills',                          issuer: 'Accenture',    date: 'Jun 2026', color: 'text-purple-400 border-purple-400/20 bg-purple-400/5' },
   { name: 'AI Analysis – NextGen Alliance',                      issuer: 'Microsoft',    date: 'Jun 2026', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
-  { name: 'AI Internship Completion',                            issuer: 'SmartED',      date: 'Jun 2026', color: 'text-cyan-400   border-cyan-400/20   bg-cyan-400/5' },
   // May 2025
   { name: 'Generative AI Productivity Skills',                   issuer: 'Microsoft',    date: 'May 2025', color: 'text-sky-400    border-sky-400/20    bg-sky-400/5' },
   // Dec 2024
@@ -29,7 +28,7 @@ export default function Credentials() {
                 Licenses &amp; Certifications
               </h2>
               <p className="text-muted text-sm mt-2">
-                9 credentials · Updated Jun 2026
+                8 credentials · Updated Jun 2026
               </p>
             </div>
             <a
