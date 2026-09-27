@@ -1,6 +1,6 @@
 # M. Adhitya
 
-> M. Adhitya (also known as Adhitya, M Adhitya, Muthu Adithya; GitHub: iamadhitya1; LinkedIn: loveadhitya) is a software engineer and AI product builder. He runs Rewrite Labs, a bootstrapped personal AI studio based in Ahmedabad, India. He is currently a final-year Computer Engineering student at IITRAM (Institute of Infrastructure Technology Research and Management), Ahmedabad, graduating in 2027. He has built 8 live AI web applications and 7 open source libraries used by developers.
+> M. Adhitya (also known as Adhitya, M Adhitya, Muthu Adithya; GitHub: iamadhitya1; LinkedIn: iamadhitya) is a software engineer and AI product builder. He runs Rewrite Labs, a bootstrapped personal AI studio based in Ahmedabad, India. He is currently a final-year Computer Engineering student at IITRAM (Institute of Infrastructure Technology Research and Management), Ahmedabad, graduating in 2027. He has built 8 live AI web applications and 7 open source libraries used by developers.
 
 ## Identity
 
