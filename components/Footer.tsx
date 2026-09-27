@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-center gap-6">
           {[
             { label: 'GitHub',       href: 'https://github.com/iamadhitya1' },
-            { label: 'LinkedIn',     href: 'https://www.linkedin.com/in/loveadhitya/' },
+            { label: 'LinkedIn',     href: 'https://www.linkedin.com/in/iamadhitya/' },
             { label: 'Instagram',    href: 'https://www.instagram.com/iamadhitya1/' },
             { label: 'Rewrite Labs', href: 'https://rewritelabs.vercel.app' },
             { label: 'Email',        href: 'mailto:adhitya5119@gmail.com' },

@@ -48,7 +48,7 @@ export default function HireMe() {
               Email me →
             </a>
             <a
-              href="https://www.linkedin.com/in/loveadhitya/"
+              href="https://www.linkedin.com/in/iamadhitya/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2.5 border border-border bg-surface text-white text-sm font-medium rounded-lg hover:border-cyan/40 transition-colors"

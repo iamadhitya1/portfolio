@@ -32,7 +32,7 @@ export default function Credentials() {
               </p>
             </div>
             <a
-              href="https://www.linkedin.com/in/loveadhitya/"
+              href="https://www.linkedin.com/in/iamadhitya/"
               target="_blank"
               rel="noopener noreferrer"
               className="shrink-0 text-xs font-mono text-muted hover:text-cyan transition-colors"

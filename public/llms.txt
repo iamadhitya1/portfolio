@@ -62,7 +62,7 @@ Seven MIT-licensed libraries published on npm and PyPI:
 - Portfolio: https://iamadhitya.vercel.app
 - Studio: https://rewritelabs.vercel.app
 - GitHub: https://github.com/iamadhitya1
-- LinkedIn: https://www.linkedin.com/in/loveadhitya/
+- LinkedIn: https://www.linkedin.com/in/iamadhitya/
 - dev.to: https://dev.to/iamadhitya
 - Medium: https://medium.com/@m_adhitya_
 - PyPI: https://pypi.org/user/iamadhitya1/

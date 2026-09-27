@@ -120,7 +120,7 @@ export default function RootLayout({
         "award": "Featured in BeerBiceps SkillHouse — Creators who explain AI in easy language (September 2025)",
         "sameAs": [
           "https://github.com/iamadhitya1",
-          "https://www.linkedin.com/in/loveadhitya/",
+          "https://www.linkedin.com/in/iamadhitya/",
           "https://dev.to/iamadhitya",
           "https://medium.com/@m_adhitya_",
           "https://pypi.org/user/iamadhitya1/",
