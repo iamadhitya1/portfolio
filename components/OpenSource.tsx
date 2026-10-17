@@ -31,7 +31,7 @@ const libs = [
   },
   {
     name: "llm-router",
-    desc: "Routes prompts to the right LLM (Groq / OpenAI / Anthropic) by complexity and cost. Save money, keep quality.",
+    desc: "Published on PyPI as llm-dispatch. Routes prompts to the right LLM (Groq / OpenAI / Anthropic) by complexity and cost. Save money, keep quality.",
     lang: "Python",
     url: "https://github.com/iamadhitya1/llm-router",
   },

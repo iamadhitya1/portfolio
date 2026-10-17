@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Rewrite Labs", "AI builder India",
     "indie developer India", "React developer India", "AI engineer India",
     "open source AI libraries", "groq-chain", "fraud-shield", "react-premium-gate",
-    "llm-router", "react-macro-rings", "react-toast-native", "react-offline-first",
+    "llm-router", "llm-dispatch", "react-macro-rings", "react-toast-native", "react-offline-first",
     "iamadhitya1", "iamadhitya",
   ],
   authors: [{ name: "M. Adhitya", url: "https://iamadhitya.vercel.app" }],

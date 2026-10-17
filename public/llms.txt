@@ -46,7 +46,7 @@ Seven MIT-licensed libraries published on npm and PyPI:
 - **react-toast-native** (npm) — Zero-dependency toast notifications for React (4 types)
 - **groq-chain** (PyPI) — Python Groq LLM chaining with .step() builder API, no LangChain
 - **fraud-shield** (PyPI) — Pip-installable fraud detection (Random Forest, 94% balanced accuracy on Kaggle dataset)
-- **llm-router** (PyPI) — Routes prompts to the cheapest LLM by complexity (Groq/OpenAI/Anthropic)
+- **llm-dispatch** (PyPI; GitHub repo: llm-router) — Routes prompts to the cheapest LLM by complexity (Groq/OpenAI/Anthropic)
 - **react-offline-first** (GitHub) — React + Vite offline-first template with IndexedDB + service worker + sync engine
 
 ## Work & Recognition
