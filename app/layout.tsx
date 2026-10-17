@@ -121,6 +121,7 @@ export default function RootLayout({
         "sameAs": [
           "https://github.com/iamadhitya1",
           "https://www.linkedin.com/in/iamadhitya/",
+          "https://www.instagram.com/iamadhitya1/",
           "https://dev.to/iamadhitya",
           "https://medium.com/@m_adhitya_",
           "https://pypi.org/user/iamadhitya1/",
@@ -158,6 +159,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <link rel="me" href="https://github.com/iamadhitya1" />
+        <link rel="me" href="https://www.linkedin.com/in/iamadhitya/" />
+        <link rel="me" href="https://rewritelabs.vercel.app" />
         <meta name="google-site-verification" content="O8GX_bTzG_bNXRqlXic9fTHJyArulWLlr5FYW91E3xU" />
         <script
           type="application/ld+json"
