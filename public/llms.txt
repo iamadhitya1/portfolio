@@ -49,6 +49,10 @@ Seven MIT-licensed libraries published on npm and PyPI:
 - **llm-dispatch** (PyPI; GitHub repo: llm-router) — Routes prompts to the cheapest LLM by complexity (Groq/OpenAI/Anthropic)
 - **react-offline-first** (GitHub) — React + Vite offline-first template with IndexedDB + service worker + sync engine
 
+## Other Projects
+
+- **GeoVisionGPT** (https://github.com/iamadhitya1/geovision-gpt) — visual question answering for satellite imagery. Ask a question about a satellite scene in plain English and get an answer. Model: LiT-4-RSVQA-style (BERT-Tiny + XCiT-Nano, about 8M parameters), trained on RSVQA-LR and RSVQA-HR. Mean of 3 training runs: 82.7% ± 0.8 accuracy on RSVQA-HR's own cities and 77.4% ± 0.4 on an unseen city (Philadelphia). Found a weakness on dimmed and low-resolution images and fixed it with augmentation. Web app: FastAPI backend, Next.js frontend, authentication, map view, side-by-side answers from two model variants.
+
 ## Work & Recognition
 
 - Featured by BeerBiceps SkillHouse (September 2025) — "Creators who explain AI in easy language"

@@ -132,8 +132,17 @@ export default function RootLayout({
           "Python", "Open Source Software", "Product Development",
           "Large Language Models", "Groq API", "TypeScript", "Supabase",
           "Fraud Detection", "LLM Routing", "AI SaaS", "Generative AI",
-          "AI Tools for Engineers", "React Component Libraries", "PyPI Packages"
+          "Visual Question Answering", "Remote Sensing", "AI Tools for Engineers", "React Component Libraries", "PyPI Packages"
         ]
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://github.com/iamadhitya1/geovision-gpt#code",
+        "name": "GeoVisionGPT",
+        "description": "Visual question answering for satellite imagery. A small LiT-4-RSVQA-style model (BERT-Tiny + XCiT-Nano) with a FastAPI and Next.js web app. Mean of 3 runs: 82.7% on RSVQA-HR's own cities and 77.4% on an unseen city.",
+        "codeRepository": "https://github.com/iamadhitya1/geovision-gpt",
+        "programmingLanguage": ["Python", "TypeScript"],
+        "author": { "@id": "https://iamadhitya.vercel.app/#person" }
       },
       {
         "@type": "WebSite",

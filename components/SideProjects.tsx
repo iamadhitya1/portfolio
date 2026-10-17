@@ -2,6 +2,14 @@ import { FadeIn } from '@/components/FadeIn';
 
 const projects = [
   {
+    name: 'GeoVisionGPT',
+    desc: 'Ask a question about a satellite image in plain English and get an answer. A small LiT-4-RSVQA-style model (~8M parameters) with a FastAPI + Next.js app. 82.7% on its training cities and 77.4% on an unseen city (mean of 3 runs).',
+    url: 'https://github.com/iamadhitya1/geovision-gpt',
+    tag: 'Computer Vision',
+    color: 'text-green-400 border-green-400/20 bg-green-400/5',
+    cta: 'View on GitHub →',
+  },
+  {
     name: 'Nexus',
     desc: 'Multi-agent research system — 4 agents (Search → Extract → Write → Critique) that turn a goal into a polished output. 8 output formats. Built with Groq + Ollama.',
     url: 'https://github.com/iamadhitya1/nexus',
