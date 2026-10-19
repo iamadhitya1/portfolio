@@ -18,7 +18,6 @@ M. Adhitya is the sole builder behind Rewrite Labs. He is known for:
 - Building and shipping AI SaaS products solo, with no venture capital
 - Creating developer-focused open source tools (React components, Python packages)
 - Writing about AI, engineering, and productivity on dev.to and Medium
-- Being featured by BeerBiceps SkillHouse for simplifying complex AI topics
 - Publishing *The Rewrite* — a book sold independently, without a publisher or launch campaign
 - Microsoft Certified
 
@@ -55,7 +54,6 @@ Seven MIT-licensed libraries published on npm and PyPI:
 
 ## Work & Recognition
 
-- Featured by BeerBiceps SkillHouse (September 2025) — "Creators who explain AI in easy language"
 - 8,800+ LinkedIn followers
 - 3,300+ newsletter subscribers
 - Book: *The Rewrite* (January 2026)

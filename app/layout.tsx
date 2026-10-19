@@ -68,7 +68,7 @@ export default function RootLayout({
         "alternateName": ["Adhitya", "M Adhitya", "Muthu Adithya", "iamadhitya1", "iamadhitya"],
         "url": "https://iamadhitya.vercel.app",
         "jobTitle": "Software Engineer & AI Builder",
-        "description": "M. Adhitya is a software engineer and AI builder. He runs Rewrite Labs, a personal AI studio, with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Featured by BeerBiceps SkillHouse. Bootstrapped, no VC.",
+        "description": "M. Adhitya is a software engineer and AI builder. He runs Rewrite Labs, a personal AI studio, with 8 free AI tools and 7 open source libraries. Computer Engineering student at IITRAM, Ahmedabad (graduating 2027). Bootstrapped, no VC.",
         "image": {
           "@type": "ImageObject",
           "url": "https://iamadhitya.vercel.app/photo.jpg",
@@ -117,7 +117,6 @@ export default function RootLayout({
           "addressLocality": "Ahmedabad",
           "addressCountry": "IN"
         },
-        "award": "Featured in BeerBiceps SkillHouse — Creators who explain AI in easy language (September 2025)",
         "sameAs": [
           "https://github.com/iamadhitya1",
           "https://www.linkedin.com/in/iamadhitya/",

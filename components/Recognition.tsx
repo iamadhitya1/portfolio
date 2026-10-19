@@ -2,12 +2,6 @@ import { FadeIn } from '@/components/FadeIn';
 
 const items = [
   {
-    date: 'Sep 2025',
-    source: 'BeerBiceps SkillHouse',
-    quote: '"M Adhitya simplifies complex AI topics and shares their human impact with a wide audience."',
-    cta: { label: 'View feature →', href: 'https://www.beerbicepsskillhouse.in/post/creators-who-explain-ai-in-easy-language' },
-  },
-  {
     date: 'Jan 2026',
     source: 'Published Author',
     quote: 'The Rewrite — sold independently, without a publisher or launch campaign.',
